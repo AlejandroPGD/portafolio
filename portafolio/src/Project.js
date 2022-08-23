@@ -4,7 +4,7 @@ import Project1 from './Images/p1.jpg'
 import Project2 from './Images/p2.png'
 function Project() {
     return (
-        <div className='project component__space'>
+        <div className='project component__space' id='Portfolio'>
             <div className='heading'>
                 <h1 className='heading'>my latest project</h1>
                 <p className='heading p__color'> asdfa  ñañkdfjñafkdjñalfkdjñjkñkasdñlkajñ</p>

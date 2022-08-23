@@ -1,5 +1,5 @@
 .home__bg {
-    background-image: url("Images/bgcolor.png");
+    background-image: url("Images/bgcolorBW.png");
     background-color: #010101;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -29,6 +29,18 @@ h2.home__text {
     font-weight: 800;
     font-family: Monserrat, sans-serif;
 
+}
+
+.header {
+    transition: .4s all ease;
+}
+
+.header.active {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 30px;
+    background-color: #191919;
 }
 
 h3.home__text {

@@ -3,7 +3,7 @@ import './Service.css'
 
 function Service() {
     return (
-        <div className='service component__space'>
+        <div className='service component__space' id='Services'>
             <div className='heading'>
                 <h1 className='heading'>my awesome service</h1>
                 <p className='heading p__color'>there are many variation of passanger ñañkdfjñafkdjñalfkdjñjkñkasdñlkajñ</p>

@@ -26,3 +26,23 @@ button.about.btn.pointer {
 .about__button {
     padding: 20px 0px;
 }
+
+a.botton__to__top {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    background-color: #f9004D;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    transition: .4s all ease;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+a.botton__to__top.active {
+    display: flex;
+}

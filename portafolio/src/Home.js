@@ -3,12 +3,16 @@ import './Home.css';
 import logo from "./Images/logo.png"
 
 function Home() {
+    window.addEventListener("scroll", function () {
+        const header = this.document.querySelector(".header")
+        header.classList.toggle("active", this.window.scrollY > 0)
+    })
     return (
-        <div className='home'>
+        <div className='home' id='Home'>
             <div className='home__bg'>
                 <div className='header d__flex align__items__center pxy__30'>
                     <div className='logo'>
-                        <img src={logo} alt="" />
+                        <img src={logo} alt="" style={{ "width": "50%" }} />
                     </div>
                     <div className='navigation pxy__30'>
                         <ul className='navbar  d__flex'>
