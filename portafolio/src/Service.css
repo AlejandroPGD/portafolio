@@ -14,10 +14,13 @@ p.heading.p__color {
 
 .service__box {
     border-radius: 10px;
-    width: 100%;
+    width: 90%;
+    height: 320px;
     background-color: #191919;
-    padding: 55px;
+    padding: 15px;
     transition: .4s ease;
+    text-align: center;
+    justify-content: center;
 }
 
 .service__box:hover {
@@ -39,7 +42,10 @@ p.heading.p__color {
     margin-bottom: 23px;
     display: inline-flex;
     color: #f9004d;
+    justify-content: center;
 }
+
+
 
 p.service__text.p__color {
     margin-bottom: 0;
@@ -49,4 +55,11 @@ h1.service__text {
     font-size: 19px;
     font-family: Poppins, sans-serif;
     padding: 10px 0px;
+}
+
+@media only screen and (max-width:1024px) {
+
+    .service__box {
+        padding: 32px;
+    }
 }

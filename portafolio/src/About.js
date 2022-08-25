@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css';
 import aboutImage from './Images/about.png'
+import Cv from './Documents/AlejandroPerez-CV-FullStack.pdf'
 
 function About() {
     window.addEventListener("scroll", function () {
@@ -15,20 +16,20 @@ function About() {
                         <img src={aboutImage} alt='' className='about__img' />
                     </div>
                     <div className='col__2'>
-                        <h1 className='about__heading'>About Me</h1>
+                        <h1 className='about__heading'>Sobre Mi</h1>
                         <div className='about__meta'>
                             <p className='about__text p__color'>
-                                there are manyassssssssssss   sad f asdfaslñjñl asjd ñlasdjñlaña sdkfjñasldkñsajd ñflasjdñflaksjdñfalkjñlasjfdñl sdkafljñ aksjdlñaksjdñlasjdñaj lksajd ñasjd lkasdj ñalksjd fñalksjd falñks djañls djfñalskdjañlsdjañlsdkfjañlsdjañlsjñ
+                                Me encanta la tecnología, la robótica y sobre todo la programación, soy ingeniero mecatrónico graduado en la universidad de san Buenaventura, me gusta aprender cosas nuevas es por esto que en este momento estoy enfocado en desarrollo web full stack, inteligencia artificial y el internet de las cosas.
                             </p>
                             <p className='about__text p__color'>
-                                there are manyassssssssssss   sad f asdfaslñjñl asjd ñlasdjñlaña sdkfjñasldkñsajd ñflasjdñflaksjdñfalkjñlasjfdñl sdkafljñ aksjdlñaksjdñlasjdñaj lksajd ñasjd lkasdj ñalksjd fñalksjd falñks djañls djfñalskdjañlsdjañlsdkfjañlsdjañlsjñ
+                                ¿Por qué yo? Soy creativo, capaz de trabajar en equipo, siempre tratando de innovar y aprender nuevas tecnologías, reconozco mis debilidades y me apoyo en personas que saben más, soy eficaz para identificar problemas, sus posibles causas y de encontrar soluciones estrategicas oportunas.
                             </p>
                             <p className='about__text p__color'>
-                                there are manyassssssssssss   sad f asdfaslñjñl asjd ñlasdjñlaña sdkfjñasldkñsajd ñflasjdñflaksjdñfalkjñlasjfdñl sdkaf
+                                Quiero contribuir a un mundo que este mas conectado y es por esto que quiero compartir con ustedes mis habilidades. ¡¡Bienvenidos!!
                             </p>
                             <div className='about__button d__flex align__items__center'>
-                                <a href='#'><button className='about btn pointer'>Download Cv</button></a>
-                                <a href='#'><button className='about btn pointer'>Hire Me </button></a>
+                                <a href={Cv} download="AlejandroPerez-CV-FullStack"><button className='about btn pointer'>Descargar Cv</button></a>
+                                <a href='https://www.linkedin.com/in/alejandropgd/'><button className='about btn pointer'>LinkedIn </button></a>
                             </div>
                         </div>
                     </div>

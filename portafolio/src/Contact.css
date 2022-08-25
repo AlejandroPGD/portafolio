@@ -1,5 +1,5 @@
 .contact {
-    background-color: #191919;
+    background-color: black;
 }
 
 h1.hire__text {
@@ -48,8 +48,8 @@ button.btn.contact.pointer {
     margin: 20px 0px;
 }
 
-.contact.img {
-    border-radius: 10px;
-    width: 100%;
+.contact__img {
+    width: 80%;
     overflow: hidden;
+    /* margin-left: 90px; */
 }

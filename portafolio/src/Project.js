@@ -6,13 +6,13 @@ function Project() {
     return (
         <div className='project component__space' id='Portfolio'>
             <div className='heading'>
-                <h1 className='heading'>my latest project</h1>
-                <p className='heading p__color'> asdfa  ñañkdfjñafkdjñalfkdjñjkñkasdñlkajñ</p>
-                <p className='heading p__color'>but de adsfafdmajourti klañsdfjñalkdsfjñakfdjñalkfdjañlkdfjañlkfdj lkjl</p>
+                <h1 className='heading'>Portafolio</h1>
+                <p className='heading p__color'> Ultimos proyectos</p>
+                {/* <p className='heading p__color'>but de adsfafdmajourti klañsdfjñalkdsfjñakfdjñalkfdjañlkdfjañlkfdj lkjl</p> */}
             </div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col__3'>
+                    <div className='col__2'>
                         <div className='project__box pointer relative'>
                             <div className='project__box__img pointer relative'>
                                 <div className='project__img__box'>
@@ -28,7 +28,7 @@ function Project() {
                         </div>
 
                     </div>
-                    <div className='col__3'>
+                    <div className='col__2'>
                         <div className='project__box pointer relative'>
                             <div className='project__box__img pointer relative'>
                                 <div className='project__img__box'>
