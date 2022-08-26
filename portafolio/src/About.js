@@ -19,13 +19,13 @@ function About() {
                         <h1 className='about__heading'>Sobre Mi</h1>
                         <div className='about__meta'>
                             <p className='about__text p__color'>
-                                Me encanta la tecnología, la robótica y sobre todo la programación, soy ingeniero mecatrónico graduado en la universidad de san Buenaventura, me gusta aprender cosas nuevas es por esto que en este momento estoy enfocado en desarrollo web full stack, inteligencia artificial y el internet de las cosas.
+                                Me encanta la tecnología, la robótica y sobre todo la programación, soy ingeniero mecatrónico graduado en la universidad de san Buenaventura, me gusta aprender cosas nuevas, y es por esto que estoy enfocado en desarrollo web full stack, inteligencia artificial y el internet de las cosas.
                             </p>
                             <p className='about__text p__color'>
-                                ¿Por qué yo? Soy creativo, capaz de trabajar en equipo, siempre tratando de innovar y aprender nuevas tecnologías, reconozco mis debilidades y me apoyo en personas que saben más, soy eficaz para identificar problemas, sus posibles causas y de encontrar soluciones estrategicas oportunas.
+                                ¿Por qué yo? Soy creativo, capaz de trabajar en equipo, siempre tratando de innovar y aprender nuevas tecnologías, reconozco mis debilidades y me apoyo en personas que saben más, soy eficaz para identificar problemas, sus posibles causas y de encontrar soluciones estratégicas oportunas.
                             </p>
                             <p className='about__text p__color'>
-                                Quiero contribuir a un mundo que este mas conectado y es por esto que quiero compartir con ustedes mis habilidades. ¡¡Bienvenidos!!
+                                Quiero contribuir para que la tecnología llegue a todos los rincones del mundo y es por esto que  quiero compartir con ustedes mis habilidades. ¡¡Bienvenidos!!
                             </p>
                             <div className='about__button d__flex align__items__center'>
                                 <a href={Cv} download="AlejandroPerez-CV-FullStack"><button className='about btn pointer'>Descargar Cv</button></a>

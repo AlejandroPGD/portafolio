@@ -26,7 +26,8 @@ img.project__img::after {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #f9004d;
+    /* background-color: #f9004d; */
+    background-color: #46c693;
     border-radius: 10px;
     transition: .4s;
     opacity: .3;
@@ -77,8 +78,10 @@ a.project__btn {
 }
 
 a.project__btn:hover {
-    background-color: #f9004d;
-    border: 2px solid #f9004d;
+    /* background-color: #f9004d; */
+    background-color: #46c693;
+    /* border: 2px solid #f9004d; */
+    border: 2px solid #46c693;
 }
 
 button.btn {
@@ -86,8 +89,10 @@ button.btn {
     font-size: 18px;
     font-weight: 500;
     border-radius: 5px;
-    border: 2px solid #f9004d;
-    background-color: #f9004d;
+    /* border: 2px solid #f9004d; */
+    border: 2px solid #46c693;
+    /* background-color: #f9004d; */
+    background-color: #46c693;
     color: #fff !important;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -96,8 +101,10 @@ button.btn {
 
 button.view__more:hover {
     background-color: #fff;
-    border: 2px solid #f9004d;
-    color: #f9004d !important;
+    /* border: 2px solid #f9004d; */
+    border: 2px solid #46c693;
+    /* color: #f9004d !important; */
+    color: #46c693 !important;
 }
 
 @media only screen and (max-width:1024px) {

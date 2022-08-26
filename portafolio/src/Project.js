@@ -7,7 +7,7 @@ function Project() {
         <div className='project component__space' id='Portfolio'>
             <div className='heading'>
                 <h1 className='heading'>Portafolio</h1>
-                <p className='heading p__color'> Ultimos proyectos</p>
+                <p className='heading p__color'> Últimos proyectos</p>
                 {/* <p className='heading p__color'>but de adsfafdmajourti klañsdfjñalkdsfjñakfdjñalkfdjañlkdfjañlkfdj lkjl</p> */}
             </div>
             <div className='container'>
@@ -21,9 +21,9 @@ function Project() {
                                 <div className='mask__effect'></div>
                             </div>
                             <div className='project__meta absolute'>
-                                <h5 className='project__text'>Development</h5>
-                                <h4 className='project__text'>countreisadsañfd </h4>
-                                <a href='#' className='project__btn'>View details</a>
+                                <h5 className='project__text'>Countries App</h5>
+                                {/* <h4 className='project__text'>co </h4> */}
+                                <a href='https://countries-pi-zeta.vercel.app/' className='project__btn'>Demo</a>
                             </div>
                         </div>
 
@@ -37,15 +37,15 @@ function Project() {
                                 <div className='mask__effect'></div>
                             </div>
                             <div className='project__meta absolute'>
-                                <h5 className='project__text'>Development</h5>
-                                <h4 className='project__text'>bringitdsañfd </h4>
-                                <a href='#' className='project__btn'>View details</a>
+                                <h5 className='project__text'>Bring It App</h5>
+                                {/* <h4 className='project__text'>bringitdsañfd </h4> */}
+                                <a href='https://bring-it-app.vercel.app/' className='project__btn'>Demo</a>
                             </div>
                         </div>
                     </div>
-                    <div className='view__more__btn d__flex align__items__center justify__content__center pxy__30'>
+                    {/* <div className='view__more__btn d__flex align__items__center justify__content__center pxy__30'>
                         <button className='view__more pointer btn'>View more</button>
-                    </div>
+                    </div> */}
                 </div>
 
             </div>

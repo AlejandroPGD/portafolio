@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import './Home.css';
 import logo from "./Images/logo.png"
 import { Link } from "react-scroll";
+import { IoLogoGithub, IoLogoLinkedin, IoNewspaperOutline } from "react-icons/io5"
+import Cv from './Documents/AlejandroPerez-CV-FullStack.pdf'
 
 function Home() {
     window.addEventListener("scroll", function () {
@@ -22,10 +24,13 @@ function Home() {
                         <ul className='navbar  d__flex'>
                             <Link to='home' smooth={true} duration={500}><li className='nav__items mx__15'>Home</li></Link>
                             <Link to='About' smooth={true} duration={500}><li className='nav__items mx__15'>About</li></Link>
-                            <Link to='service' smooth={true} duration={500}><li className='nav__items mx__15'>Services</li></Link>
+                            <Link to='service' smooth={true} duration={500}><li className='nav__items mx__15'>Tecnologías</li></Link>
                             <Link to='Portfolio' smooth={true} duration={500}><li className='nav__items mx__15'>Portafolio</li></Link>
                             {/* <Link to='Blog' smooth={true} duration={500}><li className='nav__items mx__15'>Blog</li></Link> */}
-                            <Link to='Contact' smooth={true} duration={500}><li className='nav__items mx__15'>Contact</li></Link>
+                            <Link to='Contact' smooth={true} duration={500}><li className='nav__items mx__15'>Contacto</li></Link>
+                            <a href='https://www.linkedin.com/in/alejandropgd/' smooth={true} duration={500}><li className='nav__items mx__15'><IoLogoLinkedin size={30} /></li></a>
+                            <a href='https://github.com/AlejandroPGD' smooth={true} duration={500}><li className='nav__items mx__15'><IoLogoGithub size={30} /></li></a>
+                            <a href={Cv} download="AlejandroPerez-CV-FullStack" smooth={true} duration={500}><li className='nav__items mx__15'><IoNewspaperOutline size={30} /></li></a>
                         </ul>
                     </div>
                     <div className='toggle__menu'>
@@ -46,23 +51,33 @@ function Home() {
                         <div className='sideNavbar'>
                             <ul className='sidebar d__flex'>
                                 <li className='sideNavbar'>
-                                    <a href='#home'>Home</a>
+                                    <Link to='home'>Home</Link>
                                 </li>
                                 <li className='sideNavbar'>
-                                    <a href='#about'>About</a>
+                                    <Link to='About'>Sobre Mi</Link>
                                 </li>
                                 <li className='sideNavbar'>
-                                    <a href='#services'>Services</a>
+                                    <Link to='service'>Tecnologías</Link>
                                 </li>
                                 <li className='sideNavbar'>
-                                    <a href='#portfolio'>Portafoliooo</a>
+                                    <Link to='Portfolio'>Portafolio</Link>
                                 </li>
-                                <li className='sideNavbar'>
+                                {/* <li className='sideNavbar'>
                                     <a href='#blog'>Blog</a>
+                                </li> */}
+                                <li className='sideNavbar'>
+                                    <Link to='Contact'>Contacto</Link>
                                 </li>
                                 <li className='sideNavbar'>
-                                    <a href='#contact'>Contact</a>
+                                    <a href='https://www.linkedin.com/in/alejandropgd/'><IoLogoLinkedin size={30} /></a>
                                 </li>
+                                <li className='sideNavbar'>
+                                    <a href='https://github.com/AlejandroPGD'><IoLogoGithub size={30} /></a>
+                                </li>
+                                <li className='sideNavbar'>
+                                    <a href={Cv} download="AlejandroPerez-CV-FullStack"><IoNewspaperOutline size={30} /></a>
+                                </li>
+
                             </ul>
                         </div>
                     ) : null}
@@ -75,10 +90,13 @@ function Home() {
                                 Bienvenidos,
                             </h1>
                             <h2 className='home__text pz__10'>
-                                Hola! soy Alejandro Pérez
+                                ¡Hola! soy Alejandro Pérez
                             </h2>
                             <h3 className='home__text sweet pz__10'>
-                                Full Stack Developer.
+                                Full Stack Developer,
+                            </h3>
+                            <h3 className='home__text sweet pz__10'>
+                                Ingeniero Mecatrónico
                             </h3>
                             <h4 className='home__text pz__10'>
                                 Colombia.

@@ -35,7 +35,8 @@ a.botton__to__top {
     position: fixed;
     bottom: 3%;
     right: 2%;
-    background-color: #f9004D;
+    /* background-color: #f9004D; */
+    background-color: #46c693;
     border-radius: 50%;
     cursor: pointer;
     display: none;

@@ -88,7 +88,8 @@ p {
 }
 
 .sweet {
-  color: #F9004D;
+  /* color: #F9004D; */
+  color: #46c693;
 }
 
 .row {
@@ -147,7 +148,8 @@ svg {
 }
 
 strong {
-  color: #F9004D;
+  /* color: #F9004D; */
+  color: #46c693;
   font-weight: 600;
 }
 
@@ -159,8 +161,10 @@ button.btn {
   font-size: 18px;
   font-weight: 500;
   border-radius: 5px;
-  border: 2px solid #f9004d;
-  background-color: #f9004d;
+  /* border: 2px solid #f9004d; */
+  border: 2px solid #46c693;
+  /* background-color: #f9004d; */
+  background-color: #46c693;
   color: #fff !important;
   text-transform: uppercase;
   letter-spacing: 2px;
