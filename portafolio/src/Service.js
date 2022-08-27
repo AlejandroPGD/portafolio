@@ -21,7 +21,7 @@ function Service() {
     return (
         <div className='service component__space' id='Services'>
             <div className='heading'>
-                <h1 className='heading'>Tecnologias</h1>
+                <h1 className='heading'>Tecnologías</h1>
                 {/* <p className='heading p__color'>Algunas tecnologias con las que he trabajado.</p> */}
                 {/* <p className='heading p__color'>but de majourti klañsdfjñalkdsfjñakfdjñalkfdjañlkdfjañlkfdj lkjl</p> */}
             </div>
@@ -235,7 +235,7 @@ function Service() {
                             </div>
                             <div className='service__meta'>
                                 <h1 className='service__text'>
-                                    Raspberry Pi.
+                                    Raspberry Pi
                                 </h1>
 
                             </div>
