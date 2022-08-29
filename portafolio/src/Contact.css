@@ -46,6 +46,7 @@ textarea#message {
 
 button.btn.contact.pointer {
     margin: 20px 0px;
+    color: rgb(1, 48, 11) !important;
 }
 
 .contact__img {

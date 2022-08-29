@@ -27,10 +27,10 @@ function Service() {
             </div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col__4'>
+                    <div className='col__5'>
                         <div className='service__box pointer'>
                             <div className='icon'>
-                                <img src={jsLogo} alt='js' style={{ "width": "80%" }} />
+                                <img src={jsLogo} alt='js' style={{ "width": "40%" }} />
                             </div>
                             <div className='service__meta'>
                                 <h1 className='service__text'>
@@ -48,10 +48,10 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className='col__4'>
+                    <div className='col__5'>
                         <div className='service__box pointer'>
                             <div className='icon'>
-                                <img src={reactLogo} alt='js' style={{ "width": "70%" }} />
+                                <img src={reactLogo} alt='js' style={{ "width": "46%" }} />
                             </div>
                             <div className='service__meta'>
                                 <h1 className='service__text'>
@@ -60,10 +60,10 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className='col__4'>
+                    <div className='col__5'>
                         <div className='service__box pointer'>
                             <div className='icon'>
-                                <img src={reduxLogo} alt='js' style={{ "width": "70%" }} />
+                                <img src={reduxLogo} alt='js' style={{ "width": "40%" }} />
                             </div>
                             <div className='service__meta'>
                                 <h1 className='service__text'>
@@ -72,10 +72,10 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className='col__4'>
+                    <div className='col__5'>
                         <div className='service__box pointer'>
                             <div className='icon'>
-                                <img src={nodejsLogo} alt='js' style={{ "width": "70%" }} />
+                                <img src={nodejsLogo} alt='js' style={{ "width": "40%" }} />
                             </div>
                             <div className='service__meta'>
                                 <h1 className='service__text'>
@@ -85,10 +85,10 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className='col__4'>
+                    <div className='col__5'>
                         <div className='service__box pointer'>
                             <div className='icon'>
-                                <img src={htmlLogo} alt='js' style={{ "width": "55%" }} />
+                                <img src={htmlLogo} alt='js' style={{ "width": "30%" }} />
                             </div>
                             <div className='service__meta'>
                                 <h1 className='service__text'>
@@ -98,10 +98,10 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className='col__4'>
+                    <div className='col__5'>
                         <div className='service__box pointer'>
                             <div className='icon'>
-                                <img src={cssLogo} alt='js' style={{ "width": "50%" }} />
+                                <img src={cssLogo} alt='js' style={{ "width": "25%" }} />
                             </div>
                             <div className='service__meta'>
                                 <h1 className='service__text'>
@@ -111,10 +111,10 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className='col__4'>
+                    <div className='col__5'>
                         <div className='service__box pointer'>
                             <div className='icon'>
-                                <img src={bootstrapLogo} alt='js' style={{ "width": "80%" }} />
+                                <img src={bootstrapLogo} alt='js' style={{ "width": "50%" }} />
 
                             </div>
                             <div className='service__meta'>
@@ -125,10 +125,10 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className='col__4'>
+                    <div className='col__5'>
                         <div className='service__box pointer'>
                             <div className='icon'>
-                                <img src={socketioLogo} alt='js' style={{ "width": "100%" }} />
+                                <img src={socketioLogo} alt='js' style={{ "width": "78%" }} />
                             </div>
                             <div className='service__meta'>
                                 <h1 className='service__text'>
@@ -138,10 +138,10 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className='col__4'>
+                    <div className='col__5'>
                         <div className='service__box pointer'>
                             <div className='icon'>
-                                <img src={postgresqlLogo} alt='js' style={{ "width": "75%" }} />
+                                <img src={postgresqlLogo} alt='js' style={{ "width": "38%" }} />
                             </div>
                             <div className='service__meta'>
                                 <h1 className='service__text'>
@@ -151,10 +151,10 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className='col__4'>
+                    <div className='col__5'>
                         <div className='service__box pointer'>
                             <div className='icon'>
-                                <img src={sequelizeLogo} alt='js' style={{ "width": "75%" }} />
+                                <img src={sequelizeLogo} alt='js' style={{ "width": "34%" }} />
                             </div>
                             <div className='service__meta'>
                                 <h1 className='service__text'>
@@ -164,10 +164,10 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className='col__4'>
+                    <div className='col__5'>
                         <div className='service__box pointer'>
                             <div className='icon'>
-                                <img src={sqlite3Logo} alt='js' style={{ "width": "75%" }} />
+                                <img src={sqlite3Logo} alt='js' style={{ "width": "39%" }} />
                             </div>
                             <div className='service__meta'>
                                 <h1 className='service__text'>
@@ -177,10 +177,10 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className='col__4'>
+                    <div className='col__5'>
                         <div className='service__box pointer'>
                             <div className='icon'>
-                                <img src={githubLogo} alt='js' style={{ "width": "75%" }} />
+                                <img src={githubLogo} alt='js' style={{ "width": "39%" }} />
                             </div>
                             <div className='service__meta'>
                                 <h1 className='service__text'>
@@ -190,10 +190,10 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className='col__4'>
+                    <div className='col__5'>
                         <div className='service__box pointer'>
                             <div className='icon'>
-                                <img src={solidworksLogo} alt='js' style={{ "width": "75%" }} />
+                                <img src={solidworksLogo} alt='js' style={{ "width": "40%" }} />
                             </div>
                             <div className='service__meta'>
                                 <h1 className='service__text'>
@@ -203,10 +203,10 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className='col__4'>
+                    <div className='col__5'>
                         <div className='service__box pointer'>
                             <div className='icon'>
-                                <img src={matlabLogo} alt='js' style={{ "width": "75%" }} />
+                                <img src={matlabLogo} alt='js' style={{ "width": "48%" }} />
                             </div>
                             <div className='service__meta'>
                                 <h1 className='service__text'>
@@ -216,10 +216,10 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className='col__4'>
+                    <div className='col__5'>
                         <div className='service__box pointer'>
                             <div className='icon'>
-                                <img src={arduinoLogo} alt='js' style={{ "width": "75%" }} />
+                                <img src={arduinoLogo} alt='js' style={{ "width": "41%" }} />
                             </div>
                             <div className='service__meta'>
                                 <h1 className='service__text'>
@@ -228,10 +228,10 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className='col__4'>
+                    <div className='col__5'>
                         <div className='service__box pointer'>
                             <div className='icon'>
-                                <img src={raspberrypiLogo} alt='js' style={{ "width": "75%" }} />
+                                <img src={raspberrypiLogo} alt='js' style={{ "width": "31%" }} />
                             </div>
                             <div className='service__meta'>
                                 <h1 className='service__text'>

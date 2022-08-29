@@ -21,8 +21,9 @@ button.about.btn.pointer {
     text-transform: capitalize;
     width: 195px;
     height: 55px;
+    color: rgb(1, 48, 11) !important;
     font-size: 18px;
-    transition: .4s eases;
+    transition: .4s ease;
 }
 
 .about__button {
@@ -57,7 +58,7 @@ a.botton__to__top.active {
     }
 }
 
-@media only screen and (max-width:425px) {
+/* @media only screen and (max-width:1000px) {
     button.about.btn.pointer {
         text-transform: capitalize;
         width: 165px;
@@ -65,4 +66,4 @@ a.botton__to__top.active {
         font-size: 13px;
         transition: .4s ease;
     }
-}
+} */

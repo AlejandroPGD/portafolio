@@ -16,20 +16,25 @@ function About() {
                         <img src={aboutImage} alt='' className='about__img' />
                     </div>
                     <div className='col__2'>
-                        <h1 className='about__heading'>Sobre Mi</h1>
+                        <h1 className='about__heading'>¿Quién soy?</h1>
                         <div className='about__meta'>
                             <p className='about__text p__color'>
-                                Me encanta la tecnología, la robótica y sobre todo la programación, soy ingeniero mecatrónico graduado en la universidad de san Buenaventura, me gusta aprender cosas nuevas, y es por esto que estoy enfocado en desarrollo web full stack, inteligencia artificial y el internet de las cosas.
+                                Soy ingeniero mecatrónico graduado en la universidad de san Buenaventura, estoy enfocado en el desarrollo web full stack, la inteligencia artificial y el IoT, Tengo experiencia en robótica y en programación, me encanta la tecnología porque sé que todo el tiempo se aprende algo nuevo.
                             </p>
                             <p className='about__text p__color'>
-                                ¿Por qué yo? Soy creativo, capaz de trabajar en equipo, siempre tratando de innovar y aprender nuevas tecnologías, reconozco mis debilidades y me apoyo en personas que saben más, soy eficaz para identificar problemas, sus posibles causas y de encontrar soluciones estratégicas oportunas.
+                                Soy una persona creativa y responsable. Mi calidez humana para trabajar en equipo, la eficacia para resolver problemas optimizando los recursos y la ética profesional que me caracteriza me han permitido conseguir excelentes resultados.
                             </p>
                             <p className='about__text p__color'>
-                                Quiero contribuir para que la tecnología llegue a todos los rincones del mundo y es por esto que  quiero compartir con ustedes mis habilidades. ¡¡Bienvenidos!!
+                                Quiero contribuir para que la tecnología llegue a todos los rincones del mundo y es por esto que quiero compartir con ustedes mis habilidades.
                             </p>
-                            <div className='about__button d__flex align__items__center'>
-                                <a href={Cv} download="AlejandroPerez-CV-FullStack"><button className='about btn pointer'>Descargar Cv</button></a>
-                                <a href='https://www.linkedin.com/in/alejandropgd/'><button className='about btn pointer'>LinkedIn </button></a>
+                            <div className='row'>
+
+                                <div className='about__button d__flex align__items__center'>
+                                    <a href={Cv} download="AlejandroPerez-CV-FullStack"><button className='about btn pointer'>Descargar Cv</button></a>
+                                </div>
+                                <div className='about__button d__flex align__items__center'>
+                                    <a href='https://www.linkedin.com/in/alejandropgd/'><button className='about btn pointer'>LinkedIn </button></a>
+                                </div>
                             </div>
                         </div>
                     </div>

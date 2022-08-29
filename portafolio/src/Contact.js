@@ -61,7 +61,7 @@ function Contact() {
                                 />
                                 <input
                                     className='contact email'
-                                    placeholder='Email '
+                                    placeholder='Correo Electrónico '
                                     type="text"
                                     name="email"
                                     value={input.email}

@@ -22,8 +22,8 @@ function Home() {
                     </div>
                     <div className='navigation pxy__30'>
                         <ul className='navbar  d__flex'>
-                            <Link to='home' smooth={true} duration={500}><li className='nav__items mx__15'>Home</li></Link>
-                            <Link to='About' smooth={true} duration={500}><li className='nav__items mx__15'>About</li></Link>
+                            <Link to='home' smooth={true} duration={500}><li className='nav__items mx__15'>Inicio</li></Link>
+                            <Link to='About' smooth={true} duration={500}><li className='nav__items mx__15'  >¿Quién soy?</li></Link>
                             <Link to='service' smooth={true} duration={500}><li className='nav__items mx__15'>Tecnologías</li></Link>
                             <Link to='Portfolio' smooth={true} duration={500}><li className='nav__items mx__15'>Portafolio</li></Link>
                             {/* <Link to='Blog' smooth={true} duration={500}><li className='nav__items mx__15'>Blog</li></Link> */}
@@ -51,10 +51,10 @@ function Home() {
                         <div className='sideNavbar'>
                             <ul className='sidebar d__flex'>
                                 <li className='sideNavbar'>
-                                    <Link to='home'>Home</Link>
+                                    <Link to='home'>Inicio</Link>
                                 </li>
                                 <li className='sideNavbar'>
-                                    <Link to='About'>Sobre Mi</Link>
+                                    <Link to='About'>¿Quién soy?</Link>
                                 </li>
                                 <li className='sideNavbar'>
                                     <Link to='service'>Tecnologías</Link>
@@ -87,19 +87,19 @@ function Home() {
                     <div className='home__content'>
                         <div className='home__meta'>
                             <h1 className='home__text pz__10'>
-                                Bienvenidos,
+                                ¡Bienvenidos!
                             </h1>
                             <h2 className='home__text pz__10'>
                                 ¡Hola! soy Alejandro Pérez
                             </h2>
                             <h3 className='home__text sweet pz__10'>
-                                Full Stack Developer,
+                                Desarrollador Full Stack,
                             </h3>
                             <h3 className='home__text sweet pz__10'>
                                 Ingeniero Mecatrónico
                             </h3>
                             <h4 className='home__text pz__10'>
-                                Colombia.
+                                🇨🇴
                             </h4>
                         </div>
                     </div>
