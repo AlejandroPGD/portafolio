@@ -98,7 +98,7 @@ function Home() {
                             <h3 className='home__text sweet pz__10'>
                                 Ingeniero Mecatrónico
                             </h3>
-                            <h4 className='home__text pz__10'>
+                            <h4 className='home__text pz__10' data-c="CO">
                                 🇨🇴
                             </h4>
                         </div>
